@@ -1,4 +1,4 @@
-# parkypass-com
+# Parky
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,133 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-parkypass-com is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://parkypass.com/
+Parky is a theme park companion app for iPhone, iPad, and Apple Watch. It plans the park day around the shortest lines and replans when a ride goes down or a line spikes. It shows live wait times for every attraction at 10 Disney and Universal parks and open restaurant tables at Walt Disney World and Disneyland, alerts you when a ride's wait drops or a sold-out table opens, times the queue you actually stood in, and keeps every ride you complete as a stamp on a personal Pass.
+
+**Areas:** Company · ThemePark · MobileApp · Travel · Disney · Universal
+
+## Parky on APIs.io
+
+Everything profiled for Parky is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/parkypass-com/](https://apis.io/providers/parkypass-com/)** — or go straight to one of the APIs or properties below.
+
+### APIs (5)
+
+- [Parky Live API](https://apis.io/apis/parkypass-com/parkypass-com-live-api/) — Live waits, Lightning Lane and streams.
+- [Parky Meta API](https://apis.io/apis/parkypass-com/parkypass-com-meta-api/) — Index and this document.
+- [Parky Parks API](https://apis.io/apis/parkypass-com/parkypass-com-parks-api/) — Supported parks, hours and crowd forecasts.
+- [Parky Resorts API](https://apis.io/apis/parkypass-com/parkypass-com-resorts-api/) — Resorts, ticket prices, park reservations, hotels and Walt Disney World buses.
+- [Parky Rides API](https://apis.io/apis/parkypass-com/parkypass-com-rides-api/) — Ride facts, best times and reliability.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Parky Agentic Access](https://apis.io/agentic-access/parkypass-com/parkypass-com-agentic-access/)
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [BestTimesResponse](https://apis.io/schemas/parkypass-com/parkypass-com-best-times-response/)
+- [ConditionsResponse](https://apis.io/schemas/parkypass-com/parkypass-com-conditions-response/)
+- [HotelAvailabilityResponse](https://apis.io/schemas/parkypass-com/parkypass-com-hotel-availability-response/)
+- [HoursResponse](https://apis.io/schemas/parkypass-com/parkypass-com-hours-response/)
+- [RideResponse](https://apis.io/schemas/parkypass-com/parkypass-com-ride-response/)
+- [TicketsResponse](https://apis.io/schemas/parkypass-com/parkypass-com-tickets-response/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Parkypass Com Context](https://apis.io/jsonld/parkypass-com/parkypass-com-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Parky API Rules](https://apis.io/rules/parkypass-com/parkypass-com-rules/)
+
+#### Security (3)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Parky Authentication](https://apis.io/security/parkypass-com/parkypass-com-authentication/)
+- [Parky Domain Security](https://apis.io/security/parkypass-com/parkypass-com-domain-security/)
+- [Parky Vulnerability Disclosure](https://apis.io/security/parkypass-com/parkypass-com-vulnerability-disclosure/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Parky Plans Pricing](https://apis.io/plans/parkypass-com/parkypass-com-plans-pricing/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://parkypass.com/)
+- [Getting started](https://parkypass.com/developers/quickstart)
+- [API reference](https://parkypass.com/developers/reference)
+- [Support](https://parkypass.com/support)
+- [Changelog](https://parkypass.com/developers/changelog)
+- [Terms of service](https://parkypass.com/terms)
+- [Privacy policy](https://parkypass.com/privacy)
+
+## API Evangelist rating
+
+**Kin Score 55.4** — strong · rubric 0.28.0 · scored 2026-11-20
+
+| Facet | Score |
+|---|---|
+| Discoverability | 76.7 |
+| Contract quality | 63.1 |
+| Contract governance | 79.1 |
+| Operational transparency | 23.8 |
+| Developer ergonomics | 45.2 |
+| Access clarity | 40.0 |
+
+**Agent readiness 37.2** — agent-ready
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | — |
+| Error Semantics | derived (partial credit) |
+| OpenAPI Examples | verified |
+| Rate Limit Signal | verified |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 30.4** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/parkypass-com/](https://apis.io/providers/parkypass-com/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Parky: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/parkypass-com/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
